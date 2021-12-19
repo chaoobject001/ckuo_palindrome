@@ -6,14 +6,14 @@ Gem::Specification.new do |spec|
   spec.name = "ckuo_palindrome"
   spec.version = CkuoPalindrome::VERSION
   spec.authors = ["Charles Kuo"]
-  spec.email = ["ckuo@primitybio.com"]
+  spec.email = ["chao.kuo@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
+  spec.summary = %q{Palindrome detector}
+  spec.description = %q{Learn Enough Ruby palindrome detector}
   spec.homepage = "TODO: Put your gem's website or public repo URL here."
   spec.required_ruby_version = ">= 2.5.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org/"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
