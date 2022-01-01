@@ -17,12 +17,16 @@ module CkuoPalindrome
     
     # Returns content for palindrome testing.
     def processed_content
-      self.to_s.scan(/[a-z]/i).join.downcase
+      self.to_s.scan(/[a-z]|\d/i).join.downcase
     end
 
 end
 
 class String
+  include CkuoPalindrome
+end
+
+class Integer
   include CkuoPalindrome
 end
 
